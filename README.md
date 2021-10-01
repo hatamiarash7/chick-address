@@ -37,8 +37,9 @@ ExecStart=/home/ubuntu/chick-address/chick-address
 WantedBy=multi-user.target
 ```
 
-Then:
+Then :
 
-$sudo systemctl daemon-reload
-
-$sudo systemctl start chick-address
+```sh
+sudo systemctl daemon-reload
+sudo systemctl start chick-address
+```
